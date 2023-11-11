@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap");
+
+:root {
+  --white: #fff;
+  --dark-gray: #333333;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  max-width: 1512px;
+  padding: 0px 0px 0px 0px;
+  justify-content: center;
+  align-items: center;
+  background: var(--white);
+  height: auto;
+}
+.container {
+ align-self: stretch; 
+ flex-direction: column; 
+ justify-content: flex-start; 
+ align-items: center; 
+ gap: 40px;
+ display: inline-flex"
+}
+.cover-img {
+  width: 424px;
+  height: 424px;
+  background: url(./images/free-fall-img.gif);
+  background-color: lightgray 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.titles {
+ width: 100%;
+ height: auto; 
+ flex-direction: column; 
+ justify-content: flex-start; 
+ align-items: center; gap: 16px; 
+ display: inline-flex;
+}
+
+.hero-title {
+  color: var(--dark-gray);
+  font-family: "Titillium Web", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  letter-spacing: -0.96px;
+  margin-bottom: 0;
+}
+
+.hero-desc {
+  color: var(--dark-gray);
+  font-family: "Titillium Web", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.48px;  
+  margin-top: 0;
+}
