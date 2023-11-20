@@ -3,6 +3,8 @@
 :root {
   --white: #fff;
   --dark-gray: #333333;
+  --black: #0e0e10;
+  --white-text: #000000;
 }
 
 body {
@@ -12,39 +14,36 @@ body {
 }
 main {
   display: flex;
-  max-width: 1512px;
+  max-width: auto;
   padding: 0px 0px 0px 0px;
   justify-content: center;
   align-items: center;
-  background: var(--white);
-  height: auto;
+  background: var(--black);
+  height: 100vh;
 }
 .container {
- align-self: stretch; 
- flex-direction: column; 
- justify-content: flex-start; 
- align-items: center; 
- gap: 40px;
- display: inline-flex"
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
 }
 .cover-img {
-  width: 424px;
-  height: 424px;
-  background: url(./images/free-fall-img.gif);
-  background-color: lightgray 50%;
-  background-position: center;
+  background: url(./images/xel_dot_logo_v1.svg);
   background-repeat: no-repeat;
-  background-size: cover;
-  
+  height: 50px;
+  width: 100%;
+  border: 2px solid red;
 }
 
 .titles {
- width: 100%;
- height: auto; 
- flex-direction: column; 
- justify-content: flex-start; 
- align-items: center; gap: 16px; 
- display: inline-flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  display: inline-flex;
 }
 
 .hero-title {
@@ -65,6 +64,6 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.48px;  
+  letter-spacing: -0.48px;
   margin-top: 0;
 }
