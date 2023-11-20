@@ -4,7 +4,7 @@
   --white: #fff;
   --dark-gray: #333333;
   --black: #0e0e10;
-  --white-text: #000000;
+  --white-text: #ffffff;
 }
 
 body {
@@ -29,11 +29,12 @@ main {
   gap: 40px;
 }
 .cover-img {
-  background: url(./images/xel_dot_logo_v1.svg);
+  background: url(./images/hero_image_840x840.png);
   background-repeat: no-repeat;
-  height: 50px;
-  width: 100%;
-  border: 2px solid red;
+  background-position: center;
+  background-position: cover;
+  height: 1000px;
+  width: 1500px;
 }
 
 .titles {
@@ -44,10 +45,11 @@ main {
   align-items: center;
   gap: 16px;
   display: inline-flex;
+  position: absolute;
 }
 
 .hero-title {
-  color: var(--dark-gray);
+  color: var(--white-text);
   font-family: "Titillium Web", sans-serif;
   font-size: 48px;
   font-style: normal;
@@ -58,7 +60,7 @@ main {
 }
 
 .hero-desc {
-  color: var(--dark-gray);
+  color: var(--white-text);
   font-family: "Titillium Web", sans-serif;
   font-size: 24px;
   font-style: normal;
