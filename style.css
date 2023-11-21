@@ -29,7 +29,7 @@ main {
 }
 .logo-sm {
   margin-top: 32px;
-  margin-bottom: 0;
+  margin-bottom: -100px;
 }
 .cover-img img {
   width: 840px;
@@ -66,4 +66,24 @@ main {
   line-height: normal;
   letter-spacing: -0.48px;
   margin-top: 0;
+}
+@media only screen and (max-width: 475px) {
+  main {
+    position: absolute;
+  }
+  .logo-sm {
+    margin-left: 100%;
+  }
+  .cover-img {
+    max-width: 400px;
+  }
+  .titles {
+    margin-left: 110%;
+  }
+}
+
+@media only screen and (max-width: 756px) {
+  main {
+    position: absolute;
+  }
 }
